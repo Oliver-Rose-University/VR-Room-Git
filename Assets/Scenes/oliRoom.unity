@@ -2751,7 +2751,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5583741111356757209, guid: 51c07d60274ac13489e2a61ff62c251b,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1552555818}
+      addedObject: {fileID: 1552555819}
   m_SourcePrefab: {fileID: 100100000, guid: 51c07d60274ac13489e2a61ff62c251b, type: 3}
 --- !u!1 &1552555817 stripped
 GameObject:
@@ -2759,7 +2759,13 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1552555816}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1552555818
+--- !u!4 &1552555818 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5059440518419336803, guid: 51c07d60274ac13489e2a61ff62c251b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1552555816}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1552555819
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2768,17 +2774,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1552555817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e2f4617667341945b5a7756e14b62d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
   m_Colliders: []
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_FocusMode: 1
-  m_CustomReticle: {fileID: 0}
+  m_CustomReticle: {fileID: 3521457681945940986, guid: 493691fe396bc5c40900e8a234c5c60e,
+    type: 3}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0
   m_OverrideGazeTimeToSelect: 0
@@ -2832,7 +2839,7 @@ MonoBehaviour:
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
   m_TeleportationProvider: {fileID: 1313711685}
-  m_MatchOrientation: 0
+  m_MatchOrientation: 2
   m_MatchDirectionalInput: 0
   m_TeleportTrigger: 0
   m_FilterSelectionByHitNormal: 0
@@ -2840,6 +2847,7 @@ MonoBehaviour:
   m_Teleporting:
     m_PersistentCalls:
       m_Calls: []
+  m_TeleportAnchorTransform: {fileID: 1552555818}
 --- !u!1 &1735264982
 GameObject:
   m_ObjectHideFlags: 0
